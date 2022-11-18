@@ -125,10 +125,7 @@
   margin-left: 100%;
 }
 
-/* The media queries below will automatically adjust the width of the
-container class depending on the size of the current browser window. Without
-media queries, building responsive designs is almost impossible, as it allows
-the content of the website to adapt to the screen it is displayed on. */
+/* media queries */
 
 @media only screen and (min-width: 577px) {
   .container {

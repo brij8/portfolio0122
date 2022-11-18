@@ -6,7 +6,7 @@ html {
 
 body {
   margin: 0;
-  background-image: url(assets/motherboard-wallpaper.jpg);
+  background-image: url(../assets/techwords-wallpaper.jfif);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -21,6 +21,10 @@ body {
 
 .pb-50 {
   padding-bottom: 50px;
+}
+
+.pt-50 {
+  padding-top: 50px;
 }
 
 .justify-center {
@@ -39,8 +43,15 @@ body {
   align-items: center;
 }
 
+/* nav & header */
+
 .page-header {
   background-color: darkslategray;
+}
+
+.cur-font {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
 }
 
 .nav-item {
@@ -53,22 +64,27 @@ body {
 
 .hero-image {
   background-color: #303b43;
-  background-image: url(assets/lfz-logo.png);
+
+  /* background-image: url(../assets/lfz-logo.png); */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 80%;
-  height: 350px;
+  background-size: auto 400%;
+
+  /* height: 350px; */
 }
 
 .student-name {
-  font-size: 80px;
+  color: whitesmoke;
+  font-size: 44px;
   background-color: #303b43;
   border-top: 5px double white;
   border-bottom: 5px double white;
 }
 
+/* about */
+
 .about-section {
-  background-color: whitesmoke;
+  background-color: gainsboro;
 }
 
 .about-image {
@@ -80,13 +96,23 @@ body {
   text-align: initial;
 }
 
+.about-links {
+  color: #407398;
+}
+
+/* technologies */
+
 .tech-section {
+  background-color: whitesmoke;
+}
+
+/* projects */
+
+.projects-section {
   background-color: gainsboro;
 }
 
-.projects-section {
-  background-color: snow;
-}
+/* contact */
 
 .contact-section {
   background-color: #303b43;
@@ -94,4 +120,8 @@ body {
 
 .blue-text {
   color: lightblue;
+}
+
+.con-infos {
+  margin: 0;
 }

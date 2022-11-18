@@ -1,8 +1,0 @@
-{
-  "*.html": [
-    "markuplint --fix"
-  ],
-  "*.css": [
-    "stylelint --fix"
-  ]
-}
